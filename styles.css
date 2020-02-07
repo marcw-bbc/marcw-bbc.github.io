@@ -72,8 +72,18 @@
     color: #fff;
 }
 
+.sn-twitter:active {
+    background-color: #0080B3;
+    color: #fff;
+}
+
 .sn-facebook:hover {
     background-color: #3B5998;
+    color: #fff;
+}
+
+.sn-facebook:active {
+    background-color: #2b406e;
     color: #fff;
 }
 
@@ -82,13 +92,28 @@
     color: #fff;
 }
 
+.sn-pinterest:active {
+    background-color: #981b21;
+    color: #fff;
+}
+
 .sn-linkedin:hover {
     background-color: #0072B1;
     color: #fff;
 }
 
+.sn-linkedin:active {
+    background-color: #004266;
+    color: #fff;
+}
+
 .sn-tumblr:hover {
     background-color: #34526F;
+    color: #fff;
+}
+
+.sn-tumblr:active {
+    background-color: #213445;
     color: #fff;
 }
 
@@ -99,6 +124,12 @@
 
 .sn-copy:hover {
     background-color: #696969;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sn-copy:active {
+    background-color: #595959;
     color: #fff;
     cursor: pointer;
 }
