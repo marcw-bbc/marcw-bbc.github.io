@@ -162,8 +162,9 @@ a, a:visited {
 .share-icon {
     background-image: url(images/colour/share-icon.png);
     width: 15px;
-    height: 15px;
-    padding: 0px
+    height: 25px;
+    padding: 0px;
+    background-position: 0 33%;
 }
 
 .twitter-icon {
@@ -233,11 +234,6 @@ a, a:visited {
         border-width: 6px;
     }
 
-    .share-icon {
-        width: 45px;
-        height: 45px;
-    }
-
     .icon {
         width: 72px;
         height: 72px;
@@ -265,7 +261,7 @@ a, a:visited {
 
     .share-icon {
         width: 45px;
-        height: 45px;
+        height: 76px;
         padding: 0px
     }
 
