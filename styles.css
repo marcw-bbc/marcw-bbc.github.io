@@ -58,7 +58,7 @@
 
 .share-title {
   display: block;
-  padding: 10px 0;
+  padding: 17px 0;
   font-weight: bold;
 }
 
@@ -118,18 +118,18 @@
 }
 
 .sn-copy {
-    background-color: #DCDCDC;
+    background-color: #E5E5E5;
     color: #000;
 }
 
 .sn-copy:hover {
-    background-color: #696969;
+    background-color: #5A5A5A;
     color: #fff;
     cursor: pointer;
 }
 
 .sn-copy:active {
-    background-color: #595959;
+    background-color: #333333;
     color: #fff;
     cursor: pointer;
 }
@@ -229,6 +229,7 @@ a, a:visited {
         height: 84px;
         width: 342px;
         padding: 0;
+        border-width: 6px;
     }
 
     .share-icon {
@@ -265,5 +266,11 @@ a, a:visited {
         width: 45px;
         height: 45px;
         padding: 0px
+    }
+
+    .share-title {
+        display: block;
+        padding: 51px 0;
+        font-weight: bold;
     }
 }
