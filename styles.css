@@ -15,7 +15,7 @@
   position: relative;
   text-align: center;
   font-family: Reith;
-  font-size: 1em;
+  font-size: 14px;
   float: right;
   padding-bottom: 1em;
 }
@@ -26,17 +26,18 @@
 }
 
 .share-tool:hover .share-icon {
-    background-image: url(images/white/share.png);
+    background-image: url(images/white/share-icon.png);
 }
 
 .dropdown-button {
   background-color: #fff;
-  padding: 5px 10px;
   border-color: #000;
   border-width: 2px;
   border-radius: 20px;
   color: #000;
-  font-size: 1em;
+  font-size: 14px;
+  width: 114px;
+  height: 28px;
 }
 
 .social-networks {
@@ -44,7 +45,7 @@
   position: absolute;
   z-index: 1;
   background-color: #fff;
-  min-width: 200px;
+  width: 230px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 5px 0;
   border-style: solid;
@@ -53,7 +54,7 @@
   margin-top: 15px;
   border-radius: 5px;
   padding-bottom: 0;
-  left: -15%;
+  left: -50%;
 }
 
 .share-title {
@@ -64,7 +65,7 @@
 
 .social-network {
   display: block;
-  padding: 10px 0;
+  padding: 17px 0;
 }
 
 .sn-twitter:hover {
@@ -113,20 +114,25 @@ a, a:visited {
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     background-repeat: no-repeat;
     background-position: center center;
     display: inline-block;
     background-size: contain;
-    padding-right: 10px;
+    padding-right: 15px;
     vertical-align: middle;
 }
 
+.sn-text {
+    width: 76px;
+}
+
 .share-icon {
-    background-image: url(images/colour/share.png);
+    background-image: url(images/colour/share-icon.png);
     width: 15px;
     height: 15px;
+    padding: 0px
 }
 
 .twitter-icon {
@@ -179,42 +185,54 @@ a, a:visited {
 
 .sn {
     text-align: left;
-    width: 60%;
     display: inline-block;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 110px;
+    width: 110px;
 }
 
 @media only screen and (max-device-width: 1008px) {
     .dropdown-button {
-        font-size: 48px;
-        border-radius: 35px;
-        height: 75px;
-        padding: 0 25px;
+        font-size: 42px;
+        border-radius: 60px;
+        height: 84px;
+        width: 342px;
     }
 
     .share-icon {
-        width: 35px;
-        height: 35px;
-        padding-right: 5px;
+        width: 45px;
+        height: 45px;
     }
 
     .icon {
-        width: 50px;
-        height: 50px;
-        padding-right: 35px;
+        width: 72px;
+        height: 72px;
+        padding-right: 45px;
     }
 
     .social-networks {
-        min-width: 600px;
-        left: -60%;
+        min-width: 690px;
+        left: -105%;
     }
 
     .social-network {
-        padding: 35px 0;
+        padding: 51px 0;
     }
 
     .share-tool {
-        font-size: 54px;
+        font-size: 42px;
+    }
+
+    .sn {
+        padding-left: 180px;
+        padding-right: 180px;
+        width: 330px;
+    }
+
+    .share-icon {
+        width: 45px;
+        height: 45px;
+        padding: 0px
     }
 }
