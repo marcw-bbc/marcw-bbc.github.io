@@ -197,6 +197,7 @@ a, a:visited {
         border-radius: 60px;
         height: 84px;
         width: 342px;
+        padding: 0;
     }
 
     .share-icon {
